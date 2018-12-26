@@ -18,7 +18,7 @@
     <!-- （1）root中只配置控制台日志，其他所有的日志把additivity设置为true都打到控制台，方便开发阶段定位问题。 -->
     <!-- （2）第三方框架的日志抽取到单独的文件中，并且级别为ERROR。 -->
     <!-- root -->
-    <root level="DEBUG">
+    <root level="INFO">
         <appender-ref ref="CONSOLE" />
     </root>
 
